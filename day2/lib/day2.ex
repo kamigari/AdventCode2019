@@ -14,8 +14,6 @@ defmodule Day2 do
 
   """
   def get_input() do
-    # program = 0..(length(list) - 1) |> Stream.zip(list) |> Enum.into(%{})
-
     case File.read("lib/input") do
       {:ok, contents} ->
         list =
